@@ -1,0 +1,20 @@
+*{
+    font-family: Verdana;
+}
+table,.Lista,.Titulo{
+
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+
+}
+.Lista{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.Titulo{
+    padding: 7px 70px 7px 70px;
+}
+table{
+    margin: auto;
+}

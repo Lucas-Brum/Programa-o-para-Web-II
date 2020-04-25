@@ -1,0 +1,36 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxsxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-----------------------------------------------TRABALHO--------------------------------------------------------------------------------------------
+
+
+
+- Crie um questionário com no mínimo 5 questões para o usuário responder. (OK)
+
+- Todas as questões devem ser obrigatórias. (OK)
+
+- Ao clicar no botão submit, verifique se todas as respostas estão corretas. 
+
+- Caso estejam corretas, submeta a página. Caso contrário, apresente uma borda vermelha nos campos que possuírem respostas incorretas.
+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-----------------------------------------------INFORMAÇÕES ADICIONAIS-----------------------------------------------------------------------------
+
+
+
+
+- Explore todos os recursos aprendidos até o momento.
+	- Formulários
+	- validações em javascript etc...
+
+- O tema das questões devem ser relacionado aos conteúdos trabalhados nas unidades da disciplina até o momento.
+
+- Deve constar no questionário no mínimo:
+	- Uma questão discursiva
+	- Uma questão objetiva
+	- uma questão de  múltipla escolha
+
+- Também deve ser entregue um arquivo com o gabarito das questões
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxsxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
