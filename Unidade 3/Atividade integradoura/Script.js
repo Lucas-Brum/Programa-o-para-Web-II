@@ -1,11 +1,12 @@
-function verificarSenha(){
+function Gabarito(){
 
     let gabarito = [    
         true, false, false, false, false,
         false, true, false, false, false,
         false, false, true, false, false,
         false, false, false, true, false
-]
+    ]
+    
     let corrige = document.getElementsByClassName('bordas')
     let verifica = document.getElementsByClassName('respostas')
     let pontos = 0
@@ -24,11 +25,17 @@ function verificarSenha(){
         pontos = 0 
         return true
     }
+    for(let i = 0; i < verifica.length; i++){
+
+        corrige[i].style.border = ''
+
+    }
     for(let i = 0; i < erros.length; i++){
         
         if(verifica[erros[i]].checked){
-            console.log('entrou')
-                corrige[erros[i]].style.border = "1px solid red"
+
+            corrige[erros[i]].style.border = '1px solid red'
+
         }
     }
     pontos = 0
