@@ -7,100 +7,100 @@
     <title>Pagina inicial</title>
 </head>
 <body>
-    <form action="">
+    <form action="recebedados.html" method="post" onsubmit="return verificarSenha()">
         <div>
             <div class = "questoes">
                 <div>
-                    <p>Enunciado da questão objetiva </p>
+                    <p>Como atribuir o valor do primeiro input atravez da classe valor para a variavel valores?</p>
                 </div>
-                <div>    
-                    <input type="radio" name="questao1" value="a" required /> Resposta A)
+                <div class="bordas" >    
+                    <input class="respostas" type="radio" name="questao1" value="a" required /> A) let valores = document.getElementsByClassName('valor')[0].value
                 </div>
-                <div>
-                    <input type="radio" name="questao1" value="b" /> Resposta B)
+                <div class="bordas">
+                    <input class="respostas" type="radio" name="questao1" value="b" /> B) let valores = document.getElementsById('valor').value
                 </div>
-                <div>
-                    <input type="radio" name="questao1" value="c" /> Resposta C)
+                <div class="bordas">
+                    <input class="respostas" type="radio" name="questao1" value="c" /> C) let valores = document.getElementByClassName('valor')
                 </div>
-                <div>
-                    <input type="radio" name="questao1" value="d" /> Resposta D)
+                <div class="bordas">
+                    <input class="respostas" type="radio" name="questao1" value="d" /> D) let valores = document.getElementsByName('valor')
                 </div>
-                <div>
-                    <input type="radio" name="questao1" value="e" /> Resposta E)
-                </div>
-            </div>
-            <div class = "questoes">
-                <div>
-                    <p>Enunciado da questão objetiva </p>
-                </div>
-                <div>    
-                    <input type="radio" name="questao2" value="a" required /> Resposta A)
-                </div>
-                <div>
-                    <input type="radio" name="questao2" value="b" /> Resposta B)
-                </div>
-                <div>
-                    <input type="radio" name="questao2" value="c" /> Resposta C)
-                </div>
-                <div>
-                    <input type="radio" name="questao2" value="d" /> Resposta D)
-                </div>
-                <div>
-                    <input type="radio" name="questao2" value="e" /> Resposta E)
+                <div class="bordas">
+                    <input class="respostas" type="radio" name="questao1" value="e" /> E) Nenhuma da anteriores
                 </div>
             </div>
             <div class = "questoes">
                 <div>
-                    <p>Enunciado da questão objetiva </p>
+                    <p>O que é uma linguagem case sensitive? </p>
                 </div>
-                <div>    
-                    <input type="radio" name="questao3" value="a" required /> Resposta A)
+                <div class="bordas">    
+                    <input class="respostas" type="radio" name="questao2" value="a" required /> A) Uma linguagem que não é orientada a objetos
                 </div>
-                <div>
-                    <input type="radio" name="questao3" value="b" /> Resposta B)
+                <div class="bordas">
+                    <input class="respostas" type="radio" name="questao2" value="b" /> B) Uma linguagem que diferencia letras maiusculas de minusculas
                 </div>
-                <div>
-                    <input type="radio" name="questao3" value="c" /> Resposta C)
+                <div class="bordas">
+                    <input class="respostas" type="radio" name="questao2" value="c" /> C) Uma linguagem que não diferencia letras maiusculas de minusculas
                 </div>
-                <div>
-                    <input type="radio" name="questao3" value="d" /> Resposta D)
+                <div class="bordas">
+                    <input class="respostas" type="radio" name="questao2" value="d" /> D) Uma linguagem que não diferencia objestos de funções
                 </div>
-                <div>
-                    <input type="radio" name="questao3" value="e" /> Resposta E)
-                </div>
-            </div>
-            <div class = "questoes">
-                <div>
-                    <p>Enunciado da questão objetiva </p>
-                </div>
-                <div>    
-                    <input type="radio" name="questao4" value="a" required /> Resposta A)
-                </div>
-                <div>
-                    <input type="radio" name="questao4" value="b"  /> Resposta B)
-                </div>
-                <div>
-                    <input type="radio" name="questao4" value="c" /> Resposta C)
-                </div>
-                <div>
-                    <input type="radio" name="questao4" value="d" /> Resposta D)
-                </div>
-                <div>
-                    <input type="radio" name="questao4" value="e" /> Resposta E)
+                <div class="bordas">
+                    <input class="respostas" type="radio" name="questao2" value="e" /> Resposta E) Uma linguagem orientada a funções
                 </div>
             </div>
             <div class = "questoes">
                 <div>
-                    <p>Enunciado da questão discursiva </p>
+                    <p>Para que serve a função querySelector() ?</p>
+                </div>
+                <div class="bordas">    
+                    <input class="respostas" type="radio" name="questao3" value="a" required /> A) Para dizer o tamanho de um array
+                </div>
+                <div class="bordas">
+                    <input class="respostas" type="radio" name="questao3" value="b" /> B) Para adicionar texto a uma elemento HTML
+                </div>
+                <div class="bordas">
+                    <input class="respostas" type="radio" name="questao3" value="c" /> C) Para buscar um elemento do mundo HTML e trazê-lo para o mundo JavaScript para que possamos manipulá-lo
+                </div>
+                <div class="bordas">
+                    <input class="respostas" type="radio" name="questao3" value="d" /> D) para buscar um elemento do mundo JavaScript e trazê-lo para o mundo HTML para que possamos manipulá-lo
+                </div>
+                <div class="bordas">
+                    <input class="respostas" type="radio" name="questao3" value="e" /> Resposta E) Nenhuma das respostas anteriores
+                </div>
+            </div>
+            <div class = "questoes">
+                <div>
+                    <p>Qual das opções abaixo é usado para criar loops? </p>
+                </div>
+                <div class="bordas">    
+                    <input class="respostas" type="radio" name="questao4" value="a" required /> A) if
+                </div>
+                <div class="bordas">
+                    <input class="respostas" type="radio" name="questao4" value="b"  /> B) else
+                </div>
+                <div class="bordas">
+                    <input class="respostas" type="radio" name="questao4" value="c" /> C) var
+                </div>
+                <div class="bordas">
+                    <input class="respostas" type="radio" name="questao4" value="d" /> D) for
+                </div>
+                <div class="bordas">
+                    <input class="respostas" type="radio" name="questao4" value="e" /> E) let
+                </div>
+            </div>
+            <div class = "questoes">
+                <div>
+                    <p>Fale sobre a utilidade do JavaScript no desenvolvimento web hoje em dia:</p>
                 </div>
                 <div>
-                    <textarea  cols="80" rows="10"  required></textarea>
+                    <textarea  cols="60" rows="10"  required></textarea>
                 </div>
             </div>
         </div>
         <div class = "questoes">
             <input id="Enviar" type="submit" value="Enviar">
-            <input type="reset" value="Apagar respostas">
+            <input type="reset" value="Apaga">
         </div>
     </form>
     <script src="Script.js"></script>

@@ -1,0 +1,9 @@
+Respostas:
+
+1) A
+2) B
+3) C
+4) D
+5) JavaScript é usado no desenvolvimeto web no back end (Com o Node JS), 
+mas principalmente no front end web criando as interações do usuario com 
+os elementos em tela e dar vida ao site.

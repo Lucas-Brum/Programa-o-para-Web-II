@@ -1,0 +1,19 @@
+.pequena{
+    height: 50px;
+    width: 50px;
+
+}
+.media{
+    height: 100px;
+    width: 100px;
+}
+
+.grande{
+    height: 150px;
+    width: 150px;
+}
+.button{
+
+    height: 25px;
+    width: 25px;
+}

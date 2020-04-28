@@ -1,0 +1,10 @@
+table{
+   position: absolute;
+}
+button{
+    position: absolute;
+    margin-left: 10%;}
+ol{
+   position: absolute;
+   margin-left: 15%;
+}
