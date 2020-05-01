@@ -7,7 +7,7 @@
     <title>Pagina inicial</title>
 </head>
 <body>
-    <form action="recebedados.html" method="post" onsubmit="return Gabarito()">
+    <form action="recebedados.html" method="post" onsubmit="return gabarito()">
         <div>
             <div class = "questoes">
                 <div>
@@ -37,7 +37,7 @@
                     <input class="respostas" type="radio" name="questao2" value="a" required /> A) Uma linguagem que não é orientada a objetos
                 </div>
                 <div class="bordas">
-                    <input class="respostas" type="radio" name="questao2" value="b" /> B) Uma linguagem que diferencia letras maiusculas de minusculas
+                    <input class="respostas" type="radio" name="questao2" value="b" /> B) Uma linguagem orientada a funções
                 </div>
                 <div class="bordas">
                     <input class="respostas" type="radio" name="questao2" value="c" /> C) Uma linguagem que não diferencia letras maiusculas de minusculas
@@ -46,7 +46,7 @@
                     <input class="respostas" type="radio" name="questao2" value="d" /> D) Uma linguagem que não diferencia objestos de funções
                 </div>
                 <div class="bordas">
-                    <input class="respostas" type="radio" name="questao2" value="e" /> Resposta E) Uma linguagem orientada a funções
+                    <input class="respostas" type="radio" name="questao2" value="e" /> Resposta E) Uma linguagem que diferencia letras maiusculas de minusculas
                 </div>
             </div>
             <div class = "questoes">
@@ -71,30 +71,31 @@
             </div>
             <div class = "questoes">
                 <div>
-                    <p>Qual das opções abaixo é usado para criar loops? </p>
+                    <p>Quais das opções abaixo podem ser usadas para criar loops? </p>
                 </div>
                 <div class="bordas">    
-                    <input class="respostas" type="radio" name="questao4" value="a" required /> A) if
+                    <input class="multiplaEscolha" type="checkbox" name="questao4" value="a" /> A) if
                 </div>
                 <div class="bordas">
-                    <input class="respostas" type="radio" name="questao4" value="b"  /> B) else
+                    <input class="multiplaEscolha" type="checkbox" name="questao4" value="b"  /> B) var
                 </div>
                 <div class="bordas">
-                    <input class="respostas" type="radio" name="questao4" value="c" /> C) var
+                    <input class="multiplaEscolha" type="checkbox" name="questao4" value="c" /> C) while
                 </div>
                 <div class="bordas">
-                    <input class="respostas" type="radio" name="questao4" value="d" /> D) for
+                    <input class="multiplaEscolha" type="checkbox" name="questao4" value="d" /> D) for
                 </div>
                 <div class="bordas">
-                    <input class="respostas" type="radio" name="questao4" value="e" /> E) let
+                    <input class="multiplaEscolha" type="checkbox" name="questao4" value="e" /> E) let
                 </div>
+                <p id = 'Aviso'></p>
             </div>
             <div class = "questoes">
                 <div>
-                    <p>Fale sobre a utilidade do JavaScript no desenvolvimento web hoje em dia:</p>
+                    <p>Para que o JavaScript é usado hoje em dia:</p>
                 </div>
-                <div>
-                    <textarea  cols="60" rows="10"  required></textarea>
+                <div class="bordas">
+                    <textarea id="dissertativa" cols="60" rows="10"  required></textarea>
                 </div>
             </div>
         </div>
