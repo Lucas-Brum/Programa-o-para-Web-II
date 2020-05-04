@@ -1,0 +1,59 @@
+<html ng-app>
+
+   <head>
+
+       <title>Lista de compras</title>
+
+       <script src="https://code.angularjs.org/1.0.1/angular-1.0.1.min.js"></script>
+       <script src="Script.js"></script>
+
+   </head>
+
+   <body>
+        <input type="text" ng-model="nome">
+
+        <p>Olá, QI! Meu nome é: {{ nome }}</p>
+----------------------------------------------------------------------------------------
+        <div ng-controller="ListaComprasController">
+            <form class="form-inline" name="formItem">
+
+                <input type="text" ng-model="item.produto">
+               
+                <input type="number" ng-model="item.quantidade">
+               
+                <button ng-click="adicionaItem()">adicionar ítem</button>
+               
+            </form>
+---------------------------------------------------------------------------------------
+            <table>
+         
+              <thead>
+         
+                <tr>
+         
+                  <th>Produto</th>
+         
+                  <th>Quantidade</th>
+         
+                </tr>
+         
+              </thead>
+         
+              <tbody>
+         
+                <tr ng-repeat="item in itens">
+         
+                  <td><strong>{{ item.produto }}</strong></td>
+         
+                  <td>{{ item.quantidade }}</td>
+         
+                </tr>
+         
+              </tbody>
+         
+            </table>
+        </div>
+---------------------------------------------------------------------------------------
+   </body>
+
+</html>
